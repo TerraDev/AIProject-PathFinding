@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Maze.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="PlaceHolder">
+        <button id="set_sp" class="MyBtn">Set Starting point</button>
+        <br>
+        <button id="set_ep" class="MyBtn">Set Ending point</button>
+        <br>
+        <button id="set_b" class="MyBtn">Set Obstacles</button>
+        <br>
+        <button id="start" class="StrtBtn">Start</button>
+        <br>
+        <button id="reset" class="MyBtn">Clear Board</button>
+        <br>
+        <button id="reset2" class="MyBtn">Clear Path</button>
+        <br>
+        <button id="Generate" class="MyBtn" style="border-bottom: 1px solid #aaa;">Generate project maze</button>
+        <hr>
+        <div style="text-align: left; padding: 10px 0 30px 20%;">
+        <p>Search Algorithm:</p>
+            <input type="radio" id="BreadthFirst" name="SearchAlgorithm" value="BreadthFirst" checked="checked">
+            <label for="BreadthFirst">Breadth First</label><br>
+            <input type="radio" id="IterativeDeepening" name="SearchAlgorithm" value="IterativeDeepening">
+            <label for="IterativeDeepening">Iterative Deepening</label><br>
+            <input type="radio" id="AStar" name="SearchAlgorithm" value="AStar">
+            <label for="AStar">A*</label><br>
+        </div>
+        <br>
+        <div>
+            
+        </div>
+        <br>
+    </div>
+    <div class="layout2">
+    </div>
+    <div class="PlaceHolder" style="height: 40%">
+        
+    </div>
+</body>
+
+<!--<script src="jquery-3.3.1.min.js"></script>-->
+<script src="Maze.js"></script>
+</html>

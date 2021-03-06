@@ -1,0 +1,219 @@
+body
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.MyBtn
+{
+    font-display: inline;
+    width: 60%;
+    display: table-cell;
+    border-radius: 0px;
+    border: 1px solid;
+    border-color: #aaa;
+    border-bottom: none;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.StrtBtn
+{
+    font-display: inline;
+    width: 60%;
+    display: table-cell;
+    border-radius: 0px;
+    border: 1px solid #aaa;
+    border-bottom: none;
+    cursor: pointer;
+    padding: 10px 0px;
+    background-color: rgb(168, 243, 214);
+}
+
+.StrtBtn:hover
+{
+    background-color: rgba(0, 253, 63, 0.562);
+}
+
+.MyBtn:hover
+{
+    background-color: rgba(0, 253, 63, 0.562);
+}
+
+.UnimplementedBtn
+{
+    font-display: inline;
+    width: 60%;
+    display: table-cell;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 0px;
+    background-color: #555;
+}
+
+.SelectedBtn
+{
+    font-display: inline;
+    width: 60%;
+    background-color: rgba(189, 193, 194, 0.459);
+    display: table-cell;
+    border-radius: 0px;
+    padding: 10px 0px;
+    border: 1px solid #aaa;
+    border-bottom: none;
+}
+
+.PlaceHolder
+{
+    margin: 10px;
+    height: 450px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 231, 212, 0.5);
+    display: table;
+    padding-top:50px;
+}
+
+.layout2
+{
+    margin: 0;
+    width: 698px;
+    padding: 5px;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: repeat(20,32px);
+    grid-template-rows: repeat(20,32px);
+    column-gap: 3px;
+    row-gap: 3px;
+
+    height:696px;
+}
+
+.object
+{
+    background-color: #ddd;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+}
+
+.route
+{
+    background-color: #d8980e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+}
+
+.begin
+{
+    background-color: rgb(46, 220, 226);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+}
+
+.end
+{
+    background-color:rgb(245, 141, 240);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+}
+
+.block
+{
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+}
+
+.found
+{
+    background-color: greenyellow;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+}
+
+input 
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+  
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+  
+    position: relative;
+    top: 4px;
+}
+
+input:checked 
+{
+    border: 5px solid rgb(5, 150, 20);
+}
+
+.object:hover
+{
+    background-color: rgb(32, 243, 32);
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.route:hover
+{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.begin:hover
+{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.end:hover
+{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.block:hover
+{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.found:hover
+{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
